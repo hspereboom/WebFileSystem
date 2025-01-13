@@ -1,5 +1,5 @@
 ### About
-`Zodiaque` is a web-based file server meant for testing purposes; it retrieves
+`Myriapod` is a web-based file server meant for testing purposes; it retrieves
 attributes and contents of directories and files from a remote fileserver such as
 `Arachnid`, which serves markup-free metadata.
 
@@ -7,7 +7,7 @@ attributes and contents of directories and files from a remote fileserver such a
 The main package (namespace) is `WFS`; please rebrand at will.
 There are no dependencies outside OOTB Java itself.
 
-In order for `Zodiaque` to be treated as a valid `java.nio.file.FileSystem`,
+In order for `Myriapod` to be treated as a valid `java.nio.file.FileSystem`,
 please copy the following file into your compilation target (jar or dir):
   `META-INF/services/java.nio.file.spi.FileSystemProvider`
 
@@ -17,7 +17,7 @@ This will instruct the JRE to associate the `webfs` URI scheme with said class.
 e.g. for Maven projects, one might typically use `src/test/resources/META-INF/services`.
 
 ### Configuration
-The config file `.zodiaque` is unused at the moment.
+The config file `.myriapod` is unused at the moment.
 
 ### Licensing
 All code is distributed under the MIT license https://opensource.org/license/mit.  
